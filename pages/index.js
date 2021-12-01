@@ -1,9 +1,9 @@
-import BaseLayout from '../layouts/baseLayout';
+import BuisinessPriorities from '../components/buisinessPriorities';
 import getHomepageData from '../queries/getHomepageData';
 import client from '../pages/api/apolloClient';
 
 export default function Home(props) {
-  return (BaseLayout(props));
+  return (BuisinessPriorities(props));
 }
 
 // pages/index.js
